@@ -91,3 +91,27 @@ branch 'main' set up to track 'origin/main'.
 📦 Artefacto esperado: yozora-store
 
 📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main a4895e8] A Live
+ 1 file changed, 37 insertions(+)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.08 KiB | 74.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   87143c2..a4895e8  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27028603323
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+
+❌ COMPILACIÓN FALLIDA
+Logs guardados en: .\error_logs\error_27028603323_20260605_130237.txt
+
+📤 Subiendo cambios a GitHub...

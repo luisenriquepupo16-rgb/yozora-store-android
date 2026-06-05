@@ -58,21 +58,21 @@
     <path
         android:strokeColor="#555555"
         android:strokeWidth="1.5"
-        android:fillColor="none"
+        android:fillColor="#1a1a1a"
         android:pathData="M35,70 L25,68 M35,72 L24,72 M35,74 L25,76" />
     
     <!-- Bigote derecho -->
     <path
         android:strokeColor="#555555"
         android:strokeWidth="1.5"
-        android:fillColor="none"
+        android:fillColor="#1a1a1a"
         android:pathData="M73,70 L83,68 M73,72 L84,72 M73,74 L83,76" />
     
     <!-- Boca (sonrisa pequeña, resignada) -->
     <path
         android:strokeColor="#555555"
         android:strokeWidth="1.5"
-        android:fillColor="none"
+        android:fillColor="#1a1a1a"
         android:pathData="M50,76 Q54,80 58,76" />
     
     <!-- Cola (enrollada) -->
@@ -80,20 +80,27 @@
         android:strokeColor="#1a1a1a"
         android:strokeWidth="5"
         android:strokeLineCap="round"
-        android:fillColor="none"
+        android:fillColor="#1a1a1a"
         android:pathData="M78,60 C88,55 90,45 85,40 C80,35 75,40 78,45" />
     
-    <!-- Garras (patas delanteras) -->
+    <!-- Garras izquierdas -->
     <path
         android:fillColor="#333333"
         android:pathData="M35,75 C32,78 32,82 35,82 C38,82 38,78 35,75 Z" />
     
+    <!-- Garras derechas -->
     <path
         android:fillColor="#333333"
         android:pathData="M73,75 C70,78 70,82 73,82 C76,82 76,78 73,75 Z" />
     
-    <!-- Almohadillas -->
-    <circle android:fillColor="#FFB6C1" android:cx="35" android:cy="79" android:r="2" />
-    <circle android:fillColor="#FFB6C1" android:cx="73" android:cy="79" android:r="2" />
+    <!-- Almohadilla izquierda -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M35,79 A2,2 0 1,0 35,79.1 Z" />
+    
+    <!-- Almohadilla derecha -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M73,79 A2,2 0 1,0 73,79.1 Z" />
 
 </vector>
