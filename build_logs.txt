@@ -142,3 +142,288 @@ Run ID detectado: 27028756407
 Logs guardados en: .\error_logs\error_27028756407_20260605_130622.txt
 
 📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main a29be9e] Corrección en el ícono vectorial
+ 2 files changed, 39 insertions(+), 8 deletions(-)
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.30 KiB | 57.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   1fdcb49..a29be9e  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27028947175
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+gh : failed to get run: Get "https://api.github.com/repos/luisenriquepupo16-rgb/yozora-store-android/actions/runs/270289
+47175?exclude_pull_requests=true": net/http: TLS handshake timeout
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (failed to get r...ndshake timeout:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+  No se pudo obtener información. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  No se pudo obtener información. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  No se pudo obtener información. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  No se pudo obtener información. Reintentando...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+
+❌ COMPILACIÓN FALLIDA
+Logs guardados en: .\error_logs\error_27028947175_20260605_131141.txt
+
+📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'android_app/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main 22df700] integrando proguard, nueva funcionalidad
+ 3 files changed, 110 insertions(+), 4 deletions(-)
+ create mode 100644 android_app/proguard-rules.pro
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.66 KiB | 34.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   a29be9e..22df700  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27030505577
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+gh : failed to get run: Get "https://api.github.com/repos/luisenriquepupo16-rgb/yozora-store-android/actions/runs/270305
+05577?exclude_pull_requests=true": net/http: TLS handshake timeout
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (failed to get r...ndshake timeout:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+  No se pudo obtener información. Reintentando...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+gh : failed to get run: Get "https://api.github.com/repos/luisenriquepupo16-rgb/yozora-store-android/actions/runs/270305
+05577?exclude_pull_requests=true": unexpected EOF
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 Carácter: 25
++ ... $runInfo = (gh run view $RUN_ID --json status,conclusion 2>$null | Co ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (failed to get r... unexpected EOF:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+  No se pudo obtener información. Reintentando...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
