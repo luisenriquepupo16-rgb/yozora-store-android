@@ -453,3 +453,5 @@ La transcripción ha comenzado. El archivo de salida es .\build_logs.txt
 ✅ Repositorio remoto detectado: https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
 📄 Workflow detectado: android-build
 📦 Artefacto esperado: yozora-store
+
+📤 Subiendo cambios a GitHub...
