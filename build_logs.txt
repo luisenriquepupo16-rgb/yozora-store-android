@@ -1,0 +1,37 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260605125949
+Nombre de usuario: BLUE-DRAGON\Luisi
+Usuario RunAs: BLUE-DRAGON\Luisi
+Nombre de la configuración: 
+Máquina: BLUE-DRAGON (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1'
+Id. de proceso: 5640
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es .\build_logs.txt
+
+════════════════════════════════════════════════════════
+   CONFIGURADOR AUTOMÁTICO - YOZORA STORE
+════════════════════════════════════════════════════════
+📁 Inicializando repositorio Git...
+Initialized empty Git repository in D:/Blue_Dragon/Kin/projects/yozora-store-android/.git/
+warning: in the working copy of '.github/workflows/android-build.yml', LF will be replaced by CRLF the next time Git tou
+ches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android_app/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'android_app/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Gi
+t touches it
+warning: in the working copy of 'android_app/src/main/java/com/yozorastore/MainActivity.kt', LF will be replaced by CRLF
+ the next time Git touches it
+warning: in the working copy of 'android_app/src/main/java/com/yozorastore/YozoraApplication.kt', LF will be replaced by
+ CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle.kts', LF will be replaced by CRLF the next time Git touches it
