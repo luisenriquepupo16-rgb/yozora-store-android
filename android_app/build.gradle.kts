@@ -1,5 +1,5 @@
 ﻿plugins {
-    id("com.android.application")
+z    id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
     id("com.google.devtools.ksp")
@@ -50,8 +50,8 @@ android {
     buildTypes {
         release {
             // PROGUARD ACTIVADO
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             
             // Configuración de firma
             signingConfig = signingConfigs.getByName("release")

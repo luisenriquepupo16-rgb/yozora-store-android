@@ -427,3 +427,29 @@ En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 116 
 🚧 Compilando... (in_progress)
 🚧 Compilando... (in_progress)
 🚧 Compilando... (in_progress)
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260605160524
+Nombre de usuario: BLUE-DRAGON\Luisi
+Usuario RunAs: BLUE-DRAGON\Luisi
+Nombre de la configuración: 
+Máquina: BLUE-DRAGON (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1'
+Id. de proceso: 4972
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es .\build_logs.txt
+
+════════════════════════════════════════════════════════
+   CONFIGURADOR AUTOMÁTICO - YOZORA STORE
+════════════════════════════════════════════════════════
+✅ Repositorio remoto detectado: https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+📄 Workflow detectado: android-build
+📦 Artefacto esperado: yozora-store
