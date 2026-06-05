@@ -1,0 +1,99 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cuerpo del gato acostado -->
+    <path
+        android:fillColor="#1a1a1a"
+        android:pathData="M28,65 C28,50 35,40 54,40 C73,40 80,50 80,65 C80,78 73,85 54,85 C35,85 28,78 28,65 Z" />
+    
+    <!-- Oreja izquierda -->
+    <path
+        android:fillColor="#1a1a1a"
+        android:pathData="M38,42 L32,28 L45,38 Z" />
+    
+    <!-- Oreja derecha -->
+    <path
+        android:fillColor="#1a1a1a"
+        android:pathData="M70,42 L76,28 L63,38 Z" />
+    
+    <!-- Interior oreja izquierda -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M38,41 L34,32 L43,39 Z" />
+    
+    <!-- Interior oreja derecha -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M70,41 L74,32 L65,39 Z" />
+    
+    <!-- Ojo izquierdo (entrecerrado, soñoliento) -->
+    <path
+        android:fillColor="#66FF66"
+        android:pathData="M42,58 Q46,55 50,58 Q46,57 42,58 Z" />
+    
+    <!-- Ojo derecho (entrecerrado, soñoliento) -->
+    <path
+        android:fillColor="#66FF66"
+        android:pathData="M58,58 Q62,55 66,58 Q62,57 58,58 Z" />
+    
+    <!-- Pupila izquierda (vertical, medio cerrada) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M46,58 Q46,56 46,58 Q46,60 46,58 Z" />
+    
+    <!-- Pupila derecha (vertical, medio cerrada) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M62,58 Q62,56 62,58 Q62,60 62,58 Z" />
+    
+    <!-- Nariz -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M54,68 L52,72 L56,72 Z" />
+    
+    <!-- Bigote izquierdo -->
+    <path
+        android:strokeColor="#555555"
+        android:strokeWidth="1.5"
+        android:fillColor="none"
+        android:pathData="M35,70 L25,68 M35,72 L24,72 M35,74 L25,76" />
+    
+    <!-- Bigote derecho -->
+    <path
+        android:strokeColor="#555555"
+        android:strokeWidth="1.5"
+        android:fillColor="none"
+        android:pathData="M73,70 L83,68 M73,72 L84,72 M73,74 L83,76" />
+    
+    <!-- Boca (sonrisa pequeña, resignada) -->
+    <path
+        android:strokeColor="#555555"
+        android:strokeWidth="1.5"
+        android:fillColor="none"
+        android:pathData="M50,76 Q54,80 58,76" />
+    
+    <!-- Cola (enrollada) -->
+    <path
+        android:strokeColor="#1a1a1a"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="none"
+        android:pathData="M78,60 C88,55 90,45 85,40 C80,35 75,40 78,45" />
+    
+    <!-- Garras (patas delanteras) -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M35,75 C32,78 32,82 35,82 C38,82 38,78 35,75 Z" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M73,75 C70,78 70,82 73,82 C76,82 76,78 73,75 Z" />
+    
+    <!-- Almohadillas -->
+    <circle android:fillColor="#FFB6C1" android:cx="35" android:cy="79" android:r="2" />
+    <circle android:fillColor="#FFB6C1" android:cx="73" android:cy="79" android:r="2" />
+
+</vector>
