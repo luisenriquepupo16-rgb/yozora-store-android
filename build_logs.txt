@@ -481,3 +481,86 @@ Run ID detectado: 27037383045
 Logs guardados en: .\error_logs\error_27037383045_20260605_160728.txt
 
 📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'android_app/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main 68bacea] ups
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 495 bytes | 33.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   3e0778b..68bacea  main -> main
+⏳ Esperando inicio del workflow...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 100 Carácter: 24
++ ...  $RUN_ID = (gh run list --workflow "$workflowName.yml" --limit 1 --js ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  Intento 1 de 5 - No se detectó run. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 100 Carácter: 24
++ ...  $RUN_ID = (gh run list --workflow "$workflowName.yml" --limit 1 --js ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  Intento 2 de 5 - No se detectó run. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 100 Carácter: 24
++ ...  $RUN_ID = (gh run list --workflow "$workflowName.yml" --limit 1 --js ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  Intento 3 de 5 - No se detectó run. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 100 Carácter: 24
++ ...  $RUN_ID = (gh run list --workflow "$workflowName.yml" --limit 1 --js ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  Intento 4 de 5 - No se detectó run. Reintentando...
+gh : error connecting to api.github.com
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 100 Carácter: 24
++ ...  $RUN_ID = (gh run list --workflow "$workflowName.yml" --limit 1 --js ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error connecting to api.github.com:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+check your internet connection or https://githubstatus.com
+  Intento 5 de 5 - No se detectó run. Reintentando...
+No se pudo detectar el Run ID. Verifica que el workflow existe.
+
+📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main 2653ead] ups
+ 1 file changed, 26 insertions(+)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 465 bytes | 38.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   68bacea..2653ead  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27038187870
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+
+❌ COMPILACIÓN FALLIDA
+Logs guardados en: .\error_logs\error_27038187870_20260605_162621.txt
