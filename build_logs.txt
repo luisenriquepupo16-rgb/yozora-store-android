@@ -455,3 +455,29 @@ La transcripción ha comenzado. El archivo de salida es .\build_logs.txt
 📦 Artefacto esperado: yozora-store
 
 📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'android_app/build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+[main 3e0778b] sin proguard
+ 2 files changed, 29 insertions(+), 3 deletions(-)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 590 bytes | 45.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   c63525e..3e0778b  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27037383045
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+
+❌ COMPILACIÓN FALLIDA
+Logs guardados en: .\error_logs\error_27037383045_20260605_160728.txt
+
+📤 Subiendo cambios a GitHub...
