@@ -35,3 +35,59 @@ warning: in the working copy of 'android_app/src/main/java/com/yozorastore/Yozor
  CRLF the next time Git touches it
 warning: in the working copy of 'build.gradle.kts', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'settings.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+[master (root-commit) 87143c2] Initial commit
+ 19 files changed, 513 insertions(+)
+ create mode 100644 .github/workflows/android-build.yml
+ create mode 100644 .gitignore
+ create mode 100644 android_app/build.gradle.kts
+ create mode 100644 android_app/src/main/AndroidManifest.xml
+ create mode 100644 android_app/src/main/java/com/yozorastore/MainActivity.kt
+ create mode 100644 android_app/src/main/java/com/yozorastore/YozoraApplication.kt
+ create mode 100644 android_app/src/main/res/drawable/ic_launcher_foreground.xml
+ create mode 100644 android_app/src/main/res/drawable/splash_background.xml
+ create mode 100644 android_app/src/main/res/layout/activity_main.xml
+ create mode 100644 android_app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ create mode 100644 android_app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+ create mode 100644 android_app/src/main/res/values/ic_launcher_background.xml
+ create mode 100644 android_app/src/main/res/values/splash_colors.xml
+ create mode 100644 android_app/src/main/res/values/splash_theme.xml
+ create mode 100644 android_app/src/main/res/values/strings.xml
+ create mode 100644 build.gradle.kts
+ create mode 100644 build_logs.txt
+ create mode 100644 gradle.properties
+ create mode 100644 settings.gradle.kts
+git : error: No such remote 'origin'
+En D:\Blue_Dragon\Kin\projects\yozora-store-android\build_and_download.ps1: 34 Carácter: 14
++ $remoteUrl = git remote get-url origin 2>$null
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (error: No such remote 'origin':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+📦 Creando repositorio en GitHub: yozora-store-android
+✓ Created repository luisenriquepupo16-rgb/yozora-store-android on github.com
+  https://github.com/luisenriquepupo16-rgb/yozora-store-android
+✓ Added remote https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (33/33), 7.37 KiB | 37.00 KiB/s, done.
+Total 33 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+ * [new branch]      HEAD -> master
+branch 'master' set up to track 'origin/master'.
+✓ Pushed commits to https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+🔄 Renombrando rama master → main
+
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/luisenriquepupo16-rgb/yozora-store-android/pull/new/main
+remote:
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+📄 Workflow detectado: android-build
+📦 Artefacto esperado: yozora-store
+
+📤 Subiendo cambios a GitHub...

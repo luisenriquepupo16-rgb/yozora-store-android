@@ -14,4 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "YozoraStore"include(":android_app")
+rootProject.name = "YozoraStore"
+include(":android_app")
