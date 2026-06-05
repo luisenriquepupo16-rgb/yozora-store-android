@@ -115,3 +115,30 @@ Run ID detectado: 27028603323
 Logs guardados en: .\error_logs\error_27028603323_20260605_130237.txt
 
 📤 Subiendo cambios a GitHub...
+warning: in the working copy of 'build_logs.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle.kts', LF will be replaced by CRLF the next time Git touches it
+[main 1fdcb49] Corrección en el settingsgradle
+ 2 files changed, 58 insertions(+), 1 deletion(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.00 KiB | 157.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/luisenriquepupo16-rgb/yozora-store-android.git
+   a4895e8..1fdcb49  main -> main
+⏳ Esperando inicio del workflow...
+Run ID detectado: 27028756407
+
+⏳ Monitoreando compilación...
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+🚧 Compilando... (in_progress)
+
+❌ COMPILACIÓN FALLIDA
+Logs guardados en: .\error_logs\error_27028756407_20260605_130622.txt
+
+📤 Subiendo cambios a GitHub...

@@ -13,8 +13,8 @@ android {
         applicationId = "com.yozorastore"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.0.1"
+        versionCode = 1
+        versionName = "1.0"
     }
 
     compileOptions {
@@ -36,26 +36,33 @@ android {
         }
     }
 
+    // Configuración de firma
     signingConfigs {
         create("release") {
             val keystorePath = System.getenv("KEYSTORE_PATH") ?: "D:\\Blue_Dragon\\Kin\\firmas\\yozora.keystore"
             storeFile = file(keystorePath)
-            storePassword = System.getenv("KEYSTORE_PASSWORD") ?: "Bd*2005051723"
+            storePassword = System.getenv("KEYSTORE_PASSWORD") ?: "Yozora2024!"
             keyAlias = System.getenv("KEY_ALIAS") ?: "yozora"
-            keyPassword = System.getenv("KEY_PASSWORD") ?: "Bd*2005051723"
+            keyPassword = System.getenv("KEY_PASSWORD") ?: "Yozora2024!"
         }
     }
 
     buildTypes {
         release {
+            // PROGUARD ACTIVADO
             isMinifyEnabled = true
             isShrinkResources = true
+            
+            // Configuración de firma
             signingConfig = signingConfigs.getByName("release")
+            
+            // Archivos de reglas ProGuard
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+        
         debug {
             isMinifyEnabled = false
             applicationIdSuffix = ".debug"
